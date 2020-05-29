@@ -53,7 +53,7 @@ class AppCard extends Component {
   render() {
     return (
       <div>
-        <Card>
+        <Card style={this.props.isAdmin ? { height: "auto" } : null}>
           <a href={this.props.isAdmin ? null : this.props.url}>
             <Card.Img variant="top" src={this.props.image} />
             {this.props.isAdmin ? (

@@ -101,6 +101,10 @@
     flex: 50%;
   }
 
+  #form-row {
+    padding-top: 3% !important;
+  }
+
   #form-row .col-sm-6 {
     padding: 5%;
     text-align: left;
@@ -352,7 +356,7 @@ body {
 .navbar {
   background-color: #473580;
   padding: 1%;
-  padding-left: 10%;
+  padding-left: 5%;
   padding-right: 5%;
   align-items: flex-start;
 }
@@ -402,9 +406,17 @@ a.nav-link {
 .card {
   width: 18em;
   border: none;
+  height: 550px;
+  padding-bottom: 50px;
   -webkit-box-shadow: 2px 1px 3px 2px #ccc;
   -moz-box-shadow: 2px 1px 3px 2px #ccc;
   box-shadow: 2px 1px 3px 2px #ccc;
+}
+
+.cardFooter {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 .card-title,
@@ -646,7 +658,7 @@ a.nav-link {
 #footer {
   background-color: #473580;
   padding: 0%;
-  padding-left: 10%;
+  padding-left: 5%;
   padding-right: 5%;
 }
 
